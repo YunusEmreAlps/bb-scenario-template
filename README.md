@@ -101,7 +101,7 @@ Platformu evrensel yapmayı düşünüyoruz. Bu yüzden senaryoların iki dilde 
 
 ---
 
-#### Dosyaların Platformda Görünümü
+### Dosyaların Platformda Görünümü
 
 - Adım 1: Eğitimler
 ![Scenarios](https://github.com/YunusEmreAlps/bb-scenario-template/blob/master/md_images/lesson.png?raw=true)
