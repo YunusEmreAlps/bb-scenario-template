@@ -2,14 +2,11 @@
 <br />
 <p align="center">
   <a href="https://bulutbilisimciler.com/">
-    <img src="md_images/bb.png" alt="Logo" width="200">
+    <img src="md_images/bb-slogan.png" alt="Logo" width="200">
   </a>
-
-  <h3 align="center">Bulut Bilişimciler</h3>
-
   <p align="center">
-    Tarayıcınızda gerçek ortamları kullanarak bulut teknolojilerini öğrenin.
-    <br />
+  İfadeyi, öğrenmeyi ve uygulamayı ilerleten türden yaratıcı keşiflere ilham vermek ve bunları çoğaltmak istiyoruz. Bulut Bilişimciler, yaratıcı ve meraklı insanlar için frontend, backend, bulut teknolojileri ve daha fazlasını içeren senaryolarla kavramları ve araçları kendiniz test ederek öğrenebileceğiniz interaktif bir çevrimiçi öğrenme topluluğudur.
+  <br/><br/>
     <a href="https://github.com/YunusEmreAlps/bb-scenario-template/archive/refs/heads/master.zip">Download</a>
     ·
     <a href="https://github.com/YunusEmreAlps/bb-scenario-template/issues">Report Bug</a>
@@ -18,13 +15,11 @@
   </p>
 </p>
 
+<br/>
+
 ## Bulut Bilişimciler Senaryo Şablonu
 
-İfadeyi, öğrenmeyi ve uygulamayı ilerleten türden yaratıcı keşiflere ilham vermek ve bunları çoğaltmak istiyoruz. Bulut Bilişimciler, yaratıcı ve meraklı insanlar için frontend, backend, bulut teknolojileri ve daha fazlasını içeren senaryolarla kavramları ve araçları kendiniz test ederek öğrenebileceğiniz interaktif bir çevrimiçi öğrenme topluluğudur.
-
----
-
-Bu kaynak, "Bulut Bilişimciler" platformu için örnek senaryo şablonunu barındıran ve senaryo bilgilerini içeren depodur. **Yazacağınız senaryolar için bu şablonu kullanabilirsiniz**
+Bu doküman, "Bulut Bilişimciler" platformu için örnek senaryo şablonunu barındıran ve senaryo bilgilerini içeren bir kaynaktır. **Yazacağınız senaryolar için bu şablonu kullanabilirsiniz**</p>
 
 Örnek Senaryolara bu URL üzerinden ulaşabilirsiniz:
 <https://github.com/katacoda/scenario-examples>
@@ -33,9 +28,18 @@ Bu kaynak, "Bulut Bilişimciler" platformu için örnek senaryo şablonunu barı
 
 ### Senaryo Oluşturma Adımları
 
-- Adım 1 - Senaryo yazacağımız teknolojinin adı ile bir dosya oluşturuyoruz. (Örn: Git, Go veya Linux gibi...)
-- Adım 2 - 1. Adımı tamamladıktan sonra konu başlıklarına göre dosyalar oluşturuyoruz. (bash-basics-1, basics-1, gibi bir isim verebilirsiniz.)
-- Adım 3 - Bu dosyanın içerisinde
+- **Adım 1** - Senaryo yazacağımız teknolojinin adı ile bir dosya oluşturuyoruz. (Örn: Git, Go veya Linux gibi...) Bu dosyayı ağacın kökü gibi düşünebiliriz.
+
+![Create Base File](https://github.com/YunusEmreAlps/bb-scenario-template/blob/master/md_images/create_file.png?raw=true)
+
+---
+- **Adım 2** - 1. Adımı tamamladıktan sonra konu başlıklarına göre dosyalar oluşturuyoruz. (bash-basics-1, basics-1, gibi bir isim verebilirsiniz.). Bu dosyayı ise ağacın dalları gibi düşünebiliriz.
+
+![Create Base File](https://github.com/YunusEmreAlps/bb-scenario-template/blob/master/md_images/create_scenario_file.png?raw=true)
+
+
+---
+- **Adım 3** - Oluşturduğumuz her konu başlık dosyasını içerisine aşağıda belirtilen
 
   - en_finish.md
   - en_intro.md
@@ -43,17 +47,17 @@ Bu kaynak, "Bulut Bilişimciler" platformu için örnek senaryo şablonunu barı
   - index.json
   - tr_finish.md
   - tr_intro.md
-  - tr_step1.md dosyaları kesinlikle olmalıdır.
+  - tr_step1.md bu dosyaları oluşturuyoruz.
   
 **Adım sayısına göre en_step1.md ve tr_step1.md dosyaları en_stepx.md ve tr_stepx.md şeklinde arttırabilirsiniz.**
 
-Platformu evrensel yapmayı düşünüyoruz. Bu yüzden senaryoların iki dilde olması daha geniş bir kitleye hitap etmemizi sağlayacak.
-
-tr ile başlayan markdown (.md) dosyaları Türkçe, en ile başlayan markdown (.md) dosyaları ise İngilizce olmalıdır.
+Platformu evrensel yapmayı düşünüyoruz. Bu yüzden senaryoların iki dilde olması daha geniş bir kitleye hitap etmemizi sağlayacak. Bu yüzden **tr ile başlayan markdown (.md) dosyaları Türkçe, en ile başlayan markdown (.md) dosyaları da İngilizce olmalıdır.**
 
 ![Scenario Files](https://github.com/YunusEmreAlps/bb-scenario-template/blob/master/md_images/scenario_files.png?raw=true)
 
-- Adım 4 - Bu dosyaları oluşturduktan sonra index.json dosyasına bu adımları, video varsa linkini vs. vermeniz aşağıdaki gibi girmemiz gerekiyor.
+---
+
+- **Adım 4** - Bu dosyaları oluşturduktan sonra **index.json** dosyasına bu adımları, video varsa linkini vs. vermeniz aşağıdaki gibi girmemiz gerekiyor.
 
 ```sh
 {
@@ -70,10 +74,10 @@ tr ile başlayan markdown (.md) dosyaları Türkçe, en ile başlayan markdown (
         }
       ],
       "intro": {
-        "text": "intro.md" // Başlangıç
+        "text": "intro.md" // Dersin içeriği ile ilgili girizgâh yapılan dosya
       },
       "finish": {
-        "text": "finish.md" // Bitiş
+        "text": "finish.md" // Dersin sonunda elde edilen yetkinliklerin anlatıldığı dosya
       },
       "video": {
         "text": {
@@ -93,7 +97,6 @@ tr ile başlayan markdown (.md) dosyaları Türkçe, en ile başlayan markdown (
 
 ![Index.json](https://github.com/YunusEmreAlps/bb-scenario-template/blob/master/md_images/index.json.png?raw=true)
 
-
 ---
 
 #### Dosyaların Platformda Görünümü
@@ -101,7 +104,7 @@ tr ile başlayan markdown (.md) dosyaları Türkçe, en ile başlayan markdown (
 - Adım 1: Eğitimler
 ![Scenarios](https://github.com/YunusEmreAlps/bb-scenario-template/blob/master/md_images/lesson.png?raw=true)
 - Adım 2: Senaryoların Gösterilmesi
-![Scenarios](https://github.com/YunusEmreAlps/bb-scenario-template/blob/master/md_images/scenario_tab.png?raw=true)
+![Scenarios](https://github.com/YunusEmreAlps/bb-scenario-template/blob/master/md_images/scenario_list.png?raw=true)
 - Adım 3: Senaryo'nun Çalıştırılması
 ![Specific Scenario](https://github.com/YunusEmreAlps/bb-scenario-template/blob/master/md_images/scenario_tab.png?raw=true)
 - Adım 4: Senaryo Başlangıç (tr_intro.md)
