@@ -30,7 +30,7 @@ Bu doküman, "Bulut Bilişimciler" platformu için örnek senaryo şablonunu bar
 
 - **Adım 1** - Senaryo yazacağımız teknolojinin adı ile bir dosya oluşturuyoruz. (Örn: Git, Go veya Linux gibi...) Bu dosyayı ağacın kökü gibi düşünebiliriz.
 
-![Create Base File](https://github.com/YunusEmreAlps/bb-scenario-template/blob/master/md_images/create_file.png?raw=true)
+![Create Base File](https://github.com/YunusEmreAlps/bb-scenario-template/blob/master/md_images/create_base_file.png?raw=true)
 
 ---
 - **Adım 2** - 1. Adımı tamamladıktan sonra konu başlıklarına göre dosyalar oluşturuyoruz. (bash-basics-1, basics-1, gibi bir isim verebilirsiniz.). Bu dosyayı ise ağacın dalları gibi düşünebiliriz.
