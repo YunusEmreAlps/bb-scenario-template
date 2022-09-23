@@ -39,16 +39,18 @@ Bu doküman, "Bulut Bilişimciler" platformu için örnek senaryo şablonunu bar
 
 
 ---
-- **Adım 3** - Oluşturduğumuz her konu başlık dosyasını içerisine aşağıda belirtilen
-
+- **Adım 3** - Oluşturduğumuz her konu başlık dosyasının içerisinde aşağıda belirtilen .md uzantılı dosyaları oluşturuyoruz.
   - en_finish.md
   - en_intro.md
   - en_step1.md
   - index.json
   - tr_finish.md
   - tr_intro.md
-  - tr_step1.md bu dosyaları oluşturuyoruz.
+  - tr_step1.md
+
   
+![Create MD Files](https://github.com/YunusEmreAlps/bb-scenario-template/blob/master/md_images/md_files.png?raw=true)
+
 **Adım sayısına göre en_step1.md ve tr_step1.md dosyaları en_stepx.md ve tr_stepx.md şeklinde arttırabilirsiniz.**
 
 Platformu evrensel yapmayı düşünüyoruz. Bu yüzden senaryoların iki dilde olması daha geniş bir kitleye hitap etmemizi sağlayacak. Bu yüzden **tr ile başlayan markdown (.md) dosyaları Türkçe, en ile başlayan markdown (.md) dosyaları da İngilizce olmalıdır.**
