@@ -116,5 +116,5 @@ Platformu evrensel yapmayı düşünüyoruz. Bu yüzden senaryoların iki dilde 
 
 ![tr_step1.md](https://github.com/YunusEmreAlps/bb-scenario-template/blob/master/md_images/tr_step1_bottom.png?raw=true)
 
-- Adım 6: Senarya Bitirme Kısmı (tr_finish.md)
+- Adım 6: Senaryo Bitirme Kısmı (tr_finish.md)
 ![tr_finish.md](https://github.com/YunusEmreAlps/bb-scenario-template/blob/master/md_images/tr_finish.md.png?raw=true)
