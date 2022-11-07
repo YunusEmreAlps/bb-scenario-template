@@ -17,7 +17,7 @@
 
 ---
 
-*Başlamadan önce: kaynağa destek olabilir ve senaryo yazımında kullanabilirsiniz.* 🎉⭐
+*Başlamadan önce: Tüm senaryolara https://gitlab.bulutbilisimciler.com/bb-public/scenarios bu link üzerinden ulaşabilirsiniz.* 🎉⭐
 
 ---
 
