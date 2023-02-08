@@ -31,7 +31,13 @@
 4. <https://github.com/enkidevs/curriculum>
 5. <https://github.com/TheOdinProject/curriculum>
 
+Tasarımı için kullanabileceğiniz siteler:
+
+1. Banner Tasarımı: <https://og-playground.vercel.app/>
+
 ***1 ve 2 numaralı linkler ile BB platformunda kullandığımız yapı aynıdır. Bu linkler üzerinden örnek senaryolara bakabilirsiniz. Geri kalan linkler ise senaryo yazımına yardımcı olmak için paylaşılmıştır.***
+
+
 
 ---
 
